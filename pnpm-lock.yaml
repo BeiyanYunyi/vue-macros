@@ -909,6 +909,9 @@ importers:
       '@vue-macros/short-vmodel':
         specifier: workspace:*
         version: link:../short-vmodel
+      '@vue/compiler-core':
+        specifier: 'catalog:'
+        version: 3.5.3
       '@vue/language-core':
         specifier: 'catalog:'
         version: 2.1.6(typescript@5.6.2)
@@ -916,9 +919,6 @@ importers:
         specifier: ^0.4.1
         version: 0.4.1
     devDependencies:
-      '@vue/compiler-dom':
-        specifier: 'catalog:'
-        version: 3.5.3
       typescript:
         specifier: 'catalog:'
         version: 5.6.2
