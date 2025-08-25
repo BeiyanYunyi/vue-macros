@@ -3147,8 +3147,8 @@ packages:
   '@shikijs/transformers@3.12.0':
     resolution: {integrity: sha512-HcJwlvMAyZzOY+ayEAGE891BdJ7Vtio+qdWUTF9ki4d0LIkDb6DBz8ynOWGAEglHv6eQs/WcAWf/h6ina6IgCw==}
 
-  '@shikijs/twoslash@3.12.0':
-    resolution: {integrity: sha512-gO8u8ZYs7MginBaIFZf4nDX46gZZNcbtLwjy4bdPxw/uG6GKAWhvLSh5jMLnjA+7++K3UpuylAe+vqF9doAJgA==}
+  '@shikijs/twoslash@3.12.2':
+    resolution: {integrity: sha512-JthKvEvyE/gbu3u693mhNhEO6GYP1vetrwgEfqTAsT/G9AJ6nf7g7JVqdTSs+axdfilGWzZKeYdjfyanu/v5AA==}
     peerDependencies:
       typescript: '>=5.5.0'
 
@@ -3639,8 +3639,8 @@ packages:
   '@volar/typescript@2.4.23':
     resolution: {integrity: sha512-lAB5zJghWxVPqfcStmAP1ZqQacMpe90UrP5RJ3arDyrhy4aCUQqmxPPLB2PWDKugvylmO41ljK7vZ+t6INMTag==}
 
-  '@vue-macros/common@3.0.0-beta.21':
-    resolution: {integrity: sha512-dK02Z8vSxWaFlJfPSxAoCKe1QgE6T/fWQ/7B2fdn2qN5AKpDlXmKriey2GTUxY9FPy1OZC4G5XxKWW0qieanSQ==}
+  '@vue-macros/common@3.0.0-beta.22':
+    resolution: {integrity: sha512-K4xQfZDKPy/2SEa6M355uhf4nSYlic4rT9/xIBBLy2l2EFteYl01VZEmQ4CmGy5kknfLQJADjZ7Tgji2UlEEFA==}
     engines: {node: '>=20.18.0'}
     peerDependencies:
       vue: ^2.7.0 || ^3.2.25
@@ -9704,7 +9704,7 @@ snapshots:
       '@shikijs/core': 3.12.0
       '@shikijs/types': 3.12.0
 
-  '@shikijs/twoslash@3.12.0(typescript@5.9.2)':
+  '@shikijs/twoslash@3.12.2(typescript@5.9.2)':
     dependencies:
       '@shikijs/core': 3.12.0
       '@shikijs/types': 3.12.0
@@ -9720,7 +9720,7 @@ snapshots:
 
   '@shikijs/vitepress-twoslash@3.12.0(@nuxt/kit@3.18.1(magicast@0.3.5))(typescript@5.9.2)':
     dependencies:
-      '@shikijs/twoslash': 3.12.0(typescript@5.9.2)
+      '@shikijs/twoslash': 3.12.2(typescript@5.9.2)
       floating-vue: 5.2.2(@nuxt/kit@3.18.1(magicast@0.3.5))(vue@3.5.20(typescript@5.9.2))
       lz-string: 1.5.0
       magic-string: 0.30.18
@@ -10406,13 +10406,13 @@ snapshots:
       path-browserify: 1.0.1
       vscode-uri: 3.1.0
 
-  '@vue-macros/common@3.0.0-beta.21(vue@3.5.20(typescript@5.9.2))':
+  '@vue-macros/common@3.0.0-beta.22(vue@3.5.20(typescript@5.9.2))':
     dependencies:
       '@vue/compiler-sfc': 3.5.20
       ast-kit: 2.1.2
       local-pkg: 1.1.2
       magic-string-ast: 1.0.2
-      unplugin-utils: 0.2.5
+      unplugin-utils: 0.3.0
     optionalDependencies:
       vue: 3.5.20(typescript@5.9.2)
 
@@ -14980,7 +14980,7 @@ snapshots:
 
   unplugin-vue-router@0.15.0(@vue/compiler-sfc@3.5.20)(typescript@5.9.2)(vue-router@4.5.1(vue@3.5.20(typescript@5.9.2)))(vue@3.5.20(typescript@5.9.2)):
     dependencies:
-      '@vue-macros/common': 3.0.0-beta.21(vue@3.5.20(typescript@5.9.2))
+      '@vue-macros/common': 3.0.0-beta.22(vue@3.5.20(typescript@5.9.2))
       '@vue/compiler-sfc': 3.5.20
       '@vue/language-core': 3.0.6(typescript@5.9.2)
       ast-walker-scope: 0.8.2
